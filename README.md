@@ -14,7 +14,7 @@
 
 #### Pre-processing
 
-To prepare data, we follow the mothod of [SAFA](https://github.com/shiyujiao/cross_view_localization_SAFA). Before running the code, one should pre-process the dataset with the provided file `data_preparation.py`.
+To prepare data, we follow the method of [SAFA](https://github.com/shiyujiao/cross_view_localization_SAFA). Before running the code, one should pre-process the dataset with the provided file `data_preparation.py`.
 
 ### Model
 
