@@ -3,7 +3,7 @@ import hashlib
 import os
 import json
 
-
+# Change this line yo YOUR dataset directory
 dataset_path = os.path.join("CVUSA", "dataset")
 
 csv_file = os.path.join(dataset_path, "splits", "train-19zl.csv")
