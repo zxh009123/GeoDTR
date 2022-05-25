@@ -16,6 +16,10 @@
 
 To prepare data, we follow the method of [SAFA](https://github.com/shiyujiao/cross_view_localization_SAFA). Before running the code, one should pre-process the dataset with the provided file `data_preparation.py`.
 
+#### Check duplicate images in CVUSA
+
+To get the duplicate images in CVUSA dataset as reported in the main paper. Please change the directory in line 7 of `check_cvusa_duplicate.py` and run it to check duplicate files. A json file with all duplicate pairs will be generated and one can use it to remove those files.
+
 ### Model
 
 *Pre-trained weight of our model will be available soon.*
