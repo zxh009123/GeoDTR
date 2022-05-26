@@ -1,5 +1,16 @@
 ## Implementation for "Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence"
 
+### Requirement
+
+```
+numpy
+torch
+tqdm
+scipy
+PIL
+torchvision
+```
+
 ### Dataset
 
 #### CVUSA
