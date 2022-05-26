@@ -1,6 +1,6 @@
 ## Implementation for "Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence"
 
-### Prerequisites:
+### Prerequisites
 ---
 1. numpy
 2. Pytorch >= 1.11
@@ -11,7 +11,7 @@
 
 
 ### Dataset
-
+---
 #### CVUSA
 
 - We obtain the permission of CVUSA dataset from the owner by submit the [MVRL Dataset Request Form](https://mvrl.cse.wustl.edu/datasets/cvusa/).
@@ -31,11 +31,11 @@ To prepare data, we follow the method of [SAFA](https://github.com/shiyujiao/cro
 To get the duplicate images in CVUSA dataset as reported in the main paper. Please change the directory in line 7 of `check_cvusa_duplicate.py` and run it to check duplicate files. A json file with all duplicate pairs will be generated and one can use it to remove those files.
 
 ### Model
-
+---
 *Pre-trained weight of our model will be available soon.*
 
 ### Training
-
+---
 ```bash
 python train.py \
 --dataset CVUSA \
@@ -50,7 +50,7 @@ python train.py \
 ```
 
 ### Evaluation
-
+---
 ```bash
 python test.py \
 --dataset CVUSA \
