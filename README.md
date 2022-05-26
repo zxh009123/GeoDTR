@@ -1,15 +1,14 @@
 ## Implementation for "Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence"
 
-### Requirement
+### Prerequisites:
+---
+1. numpy
+2. Pytorch >= 1.11
+3. torchvision >= 0.12
+4. tqdm
+5. scipy
+6. PIL
 
-```
-numpy
-torch
-tqdm
-scipy
-PIL
-torchvision
-```
 
 ### Dataset
 
