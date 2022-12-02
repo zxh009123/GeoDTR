@@ -35,7 +35,7 @@ if __name__ == "__main__":
     parser.add_argument("--save_suffix", type=str, default='test', help='name of the model at the end')
     parser.add_argument("--data_dir", type=str, default='../scratch', help='dir to the dataset')
     parser.add_argument('--dataset', default='CVUSA', choices=['CVUSA', 'CVACT'], help='which dataset to use') 
-    parser.add_argument("--n_des", type=int, default=8, help='number of SAFA heads')
+    parser.add_argument("--n_des", type=int, default=8, help='number of descriptors')
     parser.add_argument("--TR_heads", type=int, default=8, help='number of heads in Transformer')
     parser.add_argument("--TR_layers", type=int, default=8, help='number of layers in Transformer')
     parser.add_argument("--TR_dim", type=int, default=2048, help='dim of FFD in Transformer')
