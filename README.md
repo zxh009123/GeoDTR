@@ -1,5 +1,7 @@
 ## Implementation for "Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence"
 
+[[Paper]](https://arxiv.org/pdf/2212.04074.pdf)
+
 ### Prerequisites
 ---
 1. numpy
