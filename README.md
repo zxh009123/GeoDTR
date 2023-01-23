@@ -2,6 +2,8 @@
 
 [[Paper]](https://arxiv.org/pdf/2212.04074.pdf)
 
+![Poster](./resources/AAAI_poster_long.png)
+
 ### Prerequisites
 ---
 1. numpy
