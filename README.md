@@ -39,10 +39,6 @@ Or
 
 You can directly download the cleaned CVUSA training and validation files [here](./resources/CVUSA_cleaned.zip). Copy and paste the unzipped files under ```YOUR_PATH_TO_CVUSA/dataset/splits/``` folder to replace the original files. 
 
-### Model
----
-*Pre-trained weight of our model will be available soon.*
-
 ### Training
 ---
 ```bash
