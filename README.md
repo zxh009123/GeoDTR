@@ -62,3 +62,18 @@ python test.py \
 --data_dir path-to-your-data/ \
 --model_path path-to-your-pretrained-weight
 ```
+
+### Citation
+---
+```
+@inproceedings{zhang2023cross,
+  title={Cross-view geo-localization via learning disentangled geometric layout correspondence},
+  author={Zhang, Xiaohan and Li, Xingyu and Sultani, Waqas and Zhou, Yi and Wshah, Safwan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={3480--3488},
+  year={2023}
+}
+```
+
